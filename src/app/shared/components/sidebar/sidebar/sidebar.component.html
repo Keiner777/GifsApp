@@ -1,0 +1,12 @@
+<div class="bg-dark p-3 sidebar" >
+
+    <h3 class="text-light">GifsApp</h3>
+
+    <div *ngFor="let tag of tags" class="list-group list-reset">
+
+        <button (click)="SearchHistory(tag)" type="button" class="btn btn-outline-primary mt-3">{{tag | titlecase}}</button>
+        
+
+    </div>
+
+</div>
